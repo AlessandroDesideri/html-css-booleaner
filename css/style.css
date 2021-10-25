@@ -1,16 +1,49 @@
+body{
+    font-family: 'Zen Old Mincho', serif;
+}
+/*Titolo*/
 .titolo{
-    background: url("../img/pattern.png") rgba(0, 162, 255, 0.932);
+    background-image: url("../img/pattern.png"), url("../img/logo.svg");
+    background-repeat: repeat,no-repeat;
+    background-size: auto, 200px;
+    background-position: auto;
+    background-color: royalblue;
     width: auto; 
     height: 180px;
     width: 1080px;
+    font-weight: 300;
+}
+.nobor{
+    margin: 0px;
+}
+.white{
+    color: white;
+}
+.grey{
+    color: slategray;
+}
+.blue{
+    color: skyblue;
+}
+
+/*Tabella*/
+.table{
+    margin: 0px;
 }
 .tab{
     background-color: #00aeff ;
-    color: white;
 }
 .tabdis{
     background-color: rgb(123, 234, 253);
 }
+
+/*Sotto Tabella*/
 .sottolineato{
     background-color: yellow;
+}
+}
+
+/*Correlati*/
+.container1{
+
 }
