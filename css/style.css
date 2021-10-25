@@ -2,4 +2,15 @@
     background: url("../img/pattern.png") rgba(0, 162, 255, 0.932);
     width: auto; 
     height: 180px;
-    width: auto;
+    width: 1080px;
+}
+.tab{
+    background-color: #00aeff ;
+    color: white;
+}
+.tabdis{
+    background-color: rgb(123, 234, 253);
+}
+.sottolineato{
+    background-color: yellow;
+}
