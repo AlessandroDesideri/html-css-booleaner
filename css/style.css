@@ -6,7 +6,8 @@ body{
     background-image: url("../img/pattern.png"), url("../img/logo.svg");
     background-repeat: repeat,no-repeat;
     background-size: auto, 200px;
-    background-position: auto;
+    background-position-x: left;
+    background-position-y: bottom;
     background-color: royalblue;
     width: auto; 
     height: 180px;
@@ -41,9 +42,13 @@ body{
 .sottolineato{
     background-color: yellow;
 }
-}
 
 /*Correlati*/
-.container1{
-
+.container{
+    position: relative;
+    color: white;
+}
+.testo{
+    position: absolute;
+    top: 0px;
 }
